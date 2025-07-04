@@ -15,11 +15,11 @@ provider "azurerm" {
 # Create a resource group
 resource "azurerm_resource_group" "rg" {
   name     = "rg-lab9-demo"
-      location = "East US"
+  location = "East US"
 
   tags = {
-    Environment = "Lab9"
-    Project     = "DevOps"
+  Environment = "Lab9"
+  Project     = "DevOps"
   }
 }
 
