@@ -1,0 +1,22 @@
+{
+  "name": "lab9-devops-iac",
+  "version": "1.0.0",
+  "description": "DevOps Lab 9 - Infrastructure as Code with Terraform and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "devops",
+    "terraform",
+    "azure",
+    "github-actions",
+    "husky"
+  ],
+  "author": "CST8918 Student",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
