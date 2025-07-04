@@ -18,8 +18,8 @@ resource "azurerm_resource_group" "rg" {
   location = "East US"
 
   tags = {
-  Environment = "Lab9"
-  Project     = "DevOps"
+    Environment = "Lab9"
+    Project     = "DevOps"
   }
 }
 
